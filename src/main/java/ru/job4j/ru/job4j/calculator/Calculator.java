@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.calculator;
+package ru.job4j.calculator;
 
 public class Calculator {
 
@@ -10,5 +10,8 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
+        System.out.println(sixDivTwo);
+        System.out.println(fiveMinusTwo);
+        System.out.println(fourTimeTwo);
     }
 }
